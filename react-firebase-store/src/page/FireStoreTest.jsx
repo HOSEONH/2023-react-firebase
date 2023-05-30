@@ -137,7 +137,7 @@ export default function FireStoreTest() {
         <button onClick={ onSearch }>검색하기</button>
         <hr />
         {
-          // 검색결과 출
+          // 검색결과 출력
           searchUser && searchUser.map((user)=>(
             <div>{user.last}</div>
           ))
